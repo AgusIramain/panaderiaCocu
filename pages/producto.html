@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Agustina Iramain" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ec88ddead2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Producto</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="logo panaderia cocu"
+              width="100"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarPanaderia"
+            aria-controls="navbarPanaderia"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarPanaderia">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="pages/producto.html"
+                  >Producto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <section>
+        <h1 class="display-1 text-center my-5">Galería de Productos</h1>
+        <hr />
+        <article class="row my-4">
+          <div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+            <div class="card">
+              <!-- acá borró el width para que el tamaño de las columnas de la grilla se adapte al que yo le establecí para cada tamaño de dispositivo -->
+              <img
+                src="../img/panyfactura.png"
+                class="card-img-top"
+                alt="Panes y facturas"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Panes y Facturas <span class="badge bg-warning">Nuevo</span>
+                </h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="detalleProducto.html" class="btn btn-primary"
+                  >Ver más</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/salado.png"
+                class="card-img-top"
+                alt="Sándwich"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Sándwich <span class="badge bg-warning">Nuevo</span>
+                </h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalSandwich"
+                >
+                  Ver más
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/dulce.png"
+                class="card-img-top"
+                alt="Pan Dulce"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pan Dulce</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalPanDulce"
+                >
+                  Ver más
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/salado.png"
+                class="card-img-top"
+                alt="Sándwich"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Sándwich <span class="badge bg-warning">Nuevo</span>
+                </h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalSandwich"
+                  disabled
+                >
+                  Ver más
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/salado.png"
+                class="card-img-top"
+                alt="Sándwich"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Sándwich <span class="badge bg-warning">Nuevo</span>
+                </h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalSandwich"
+                  disabled
+                >
+                  Ver más
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/salado.png"
+                class="card-img-top"
+                alt="Sándwich"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Sándwich <span class="badge bg-warning">Nuevo</span>
+                </h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalSandwich"
+                  disabled
+                >
+                  Ver más
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!-- Modal Producto -->
+    <!-- conviene poner las ventanas modales cerca del final del código, entre la etiqueta de cierre del main y la etiqueta de apertura del footer para que no se preste a confusiones, también conviene poner un comentario en cada ventana modal diciendo de que es -->
+    <div
+      class="modal fade"
+      id="modalSandwich"
+      tabindex="-1"
+      aria-labelledby="modalSandwich"
+      aria-hidden="true"
+    >
+      <!-- la clase fade está relacionada con el efecto que tiene la ventana modal de aparecer y desaparecer lentamente, las clases tabindex y aria-hidden hacen que la ventana modal se mantenga oculta -->
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- este es el encabezado de la ventana modal-->
+            <h5 class="modal-title" id="modalSandwich">Sándwich</h5>
+            <!-- puedo cambiar este nivel de h, este es el título de la ventana modal -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <!-- este botón es la cruz para cerrar la ventana modal, la propiedad data-bs-dismiss tiene que estar para que se pueda cerrar la ventana modal -->
+          </div>
+          <div class="modal-body">
+            <img src="../img/salado.png" alt="Sándwich" class="w-100" />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cancelar
+            </button>
+            <!-- este es el botón de cerrar, la propiedad data-bs-dismiss tiene que estar para que el botón se pueda cerrar -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Producto -->
+    <div
+      class="modal fade"
+      id="modalPanDulce"
+      tabindex="-1"
+      aria-labelledby="modalPanDulce"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalPanDulce">Pan Dulce</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="../img/dulce.png" alt="Pan Dulce" class="w-100" />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cancelar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark text-light py-4">
+      <section class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 centrar">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="logo de panaderia cocu"
+              width="150"
+            />
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h6>Horarios de atención:</h6>
+            <ul>
+              <li>Lunes a viernes: 09hs-18hs</li>
+              <li>Sábado, domingo y feriados: 09hs-14hs</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h6>Seguinos en nuestras redes:</h6>
+            <div class="centrar">
+              <a
+                href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+                target="_blank"
+                class="me-2"
+                ><i class="fab fa-facebook-square fa-2x text-light"></i
+              ></a>
+              <a href="#"
+                ><i class="fab fa-instagram-square fa-2x text-light me-2"></i
+              ></a>
+              <a href="#"
+                ><i class="fab fa-twitter-square fa-2x text-light"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
